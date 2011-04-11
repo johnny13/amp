@@ -190,7 +190,7 @@ function addANOTHERSONG(audioPlaylist) {
 	var oldArray = audioPlaylist;
 		$.ajax({
 	 		 type:"POST",
-   			 url: 'js/playlist.php',
+   			 url: 'js/generate.php',
 			 dataType:'json',
   			 success: function(data) {
   			 var alpha = $.merge(oldArray, data);
@@ -289,7 +289,7 @@ $(document).ready(function(){
 		deleteRoundTwo();
 		$.ajax({
 	 		 type:"POST",
-   			 url: 'js/playlist.php',
+   			 url: 'js/generate.php',
 			 dataType:'json',
   			 success: function(data) {
   			 var alpha = $.merge(oldArray, data);	 
@@ -312,7 +312,7 @@ $(document).ready(function(){
 	}
 	 $.ajax({
 	 		 type:"POST",
-   			 url: 'js/playlist.php',
+   			 url: 'js/generate.php',
 			 dataType:'json',
   			 success: function(data) {
   			 		//Build New Plyalist Object w/ Results
