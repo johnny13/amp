@@ -1,0 +1,581 @@
+@charset "UTF-8";
+html{
+	color:#FFF;
+	background:#000;
+	min-height:100% !important;
+	height:100% !important;
+}
+
+body {
+	font:15px arial,helvetica,clean,sans-serif;
+	*font-size:normal; /* for IE */
+	*font:normal; /* for IE in quirks mode */
+	min-height:100% !important;
+	height:100% !important;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,
+img {
+	border:0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+	font-style:normal;
+	font-weight:normal;
+}
+
+li {
+	list-style:none;
+}
+
+caption,
+th {
+	text-align:left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size:110%;
+	font-weight:normal;
+}
+q:before,
+q:after {
+	content:'';
+}
+abbr,
+acronym {
+	border:0;
+	font-variant:normal;
+}
+/* to preserve line-height and selector appearance */
+sup {
+	vertical-align:text-top;
+}
+sub {
+	vertical-align:text-bottom;
+}
+input,
+textarea,
+select {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+/*to enable resizing for IE*/
+input,
+textarea,
+select {
+	*font-size:100%;
+}
+/*because legend doesn't inherit in IE */
+legend {
+	color:#000;
+}
+
+/* base.css, part of YUI's CSS Foundation */
+h1 {
+	/*18px via YUI Fonts CSS foundation*/
+	font-size:138.5%;  
+}
+h2 {
+	/*16px via YUI Fonts CSS foundation*/
+	font-size:123.1%; 
+}
+h3 {
+	/*14px via YUI Fonts CSS foundation*/
+	font-size:108%;  
+}
+h1,h2,h3 {
+	/* top & bottom margin based on font size */
+	margin:2px;
+}
+h1,h2,h3,h4,h5,h6,strong {
+	/*bringing boldness back to headers and the strong element*/
+	font-weight:bold; 
+}
+abbr,acronym {
+	/*indicating to users that more info is available */
+	border-bottom:1px dotted #000;
+	cursor:help;
+} 
+em {
+	/*bringing italics back to the em element*/
+	font-style:italic;
+}
+blockquote,ul,ol,dl {
+	/*giving blockquotes and lists room to breath*/
+	margin:1em;
+}
+ol,ul,dl {
+	/*bringing lists on to the page with breathing room */
+	margin-left:2em;
+}
+ol li {
+	/*giving OL's LIs generated numbers*/
+	list-style: decimal outside;	
+}
+ul li {
+	/*giving UL's LIs generated disc markers*/
+	list-style: disc outside;
+}
+dl dd {
+	/*providing spacing for definition terms*/
+	margin-left:1em;
+}
+th,td {
+	/*borders and padding to make the table readable*/
+	border:1px solid #000;
+	padding:.5em;
+}
+th {
+	/*distinguishing table headers from data cells*/
+	font-weight:bold;
+	text-align:center;
+}
+caption {
+	/*coordinated margin to match cell's padding*/
+	margin-bottom:.5em;
+	/*centered so it doesn't blend in to other content*/
+	text-align:center;
+}
+p,fieldset,table,pre {
+	/*so things don't run into each other*/
+	margin-bottom:1em;
+}
+/* setting a consistent width, 160px; 
+   control of type=file still not possible */
+input[type=text],input[type=password],textarea{width:12.25em;*width:11.9em;}
+
+body, html, .alphaSticky { 
+min-width:100%; 
+width:100%; 
+width: auto !important; 
+display: block; 
+padding:0;
+min-height:550px;
+/*background-image:url("../i/Pinstripe.png");
+background-repeat:repeat;*/
+background: #8d8c8b;
+background: -moz-linear-gradient(0% 100% 90deg, #585756, #8d8c8b);
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#8d8c8b), to(#585756));
+}
+
+/* With StickyFooter */
+/*Opera Fix*/
+body:before {
+	content:"";
+	float:left;
+	width:0;
+}
+
+.alphaSticky {  padding:0; margin: 0 auto -75px;min-height:600px;}
+
+/*  or WithOut StickyFooter */
+.alpha { 
+min-width:100%; 
+width:100%; 
+width: auto !important; 
+min-height: 100%; 
+height: auto !important; 
+height: 100%; 
+display: block; 
+height: auto !important; 
+padding:0; margin: 0;
+}
+
+#main {overflow:auto;padding-bottom: 150px;}
+/* Then pick a header */
+
+/* Full Length Header */
+.header { 
+min-width:100%; 
+width:100%; 
+width: auto !important;
+}
+
+/* This is for the Stuff Outside of jPlayer */
+div#rightToolBox {
+	float:right;
+	margin-right:10px;
+	margin-top:0px;
+	overflow:hidden !important;
+	-moz-box-shadow: 0 0 5px 2px #111;
+	-webkit-box-shadow: 0 0 5px 2px #111;
+	box-shadow: 0 0 5px 2px #111;
+	}
+	
+div#genres {
+	position:relative;
+	min-height: 200px;
+	width:95%;
+	background:#FFF;
+	float:left;
+	border: 2px inset #FFF;
+	margin:10px;
+	color:#222;
+	overflow:hidden !important;
+	}
+
+div#content_main {
+	width:440px;
+	height:95%;
+	overflow-x: hidden;
+}
+
+div#colors {
+	float:right;
+	width:200px;
+	min-height:300px;
+	background:#FFF;
+	border: 2px inset #FFF;
+	margin:10px 10px 10px 0;
+	color:#222;
+	}
+	
+h3.label {
+	float:right;
+	margin-right:10px;
+	}
+	
+h2 {
+	margin-left:5px;
+	font-size:1.2em;
+	}
+	
+h3 {
+	font-size:0.8em;
+	}
+	
+hr {
+	clear:both;
+	margin: 0 5% 0 5%;
+	}
+	
+a.control {
+	padding:10px 5px 10px 5px;
+	height:20px;
+	cursor:pointer:
+	}
+	
+a.control:hover {
+	margin-left:5px;
+	color:#666;
+	}
+
+img.deleteBtn {
+	float:right;
+	padding-right: 25px;
+	padding-top: 8px;
+}
+
+div.fadehover {
+	position: relative;
+	width:100%;
+	height:48px;
+	padding:0px 0 0 10px
+	}
+
+#deleteSelector {
+	margin: 15px 0 0 5px;	
+}
+
+#skin {
+	margin: 15px 0 0 35px;	
+}
+
+
+.shadow {
+    -moz-box-shadow: 0 0 5px 2px #111;
+	-webkit-box-shadow: 0 0 5px 2px #111;
+	box-shadow: 0 0 5px 2px #111;
+}
+
+img { border: none; }
+
+a { text-decoration : none; color:#222; cursor:pointer;	 }
+
+div#panel {
+width:100%;
+}
+
+a.delete {
+	float:right;
+	padding-right:2px;	
+}
+
+div#footer {
+	padding: 5px;
+	position: fixed;
+	bottom: -5px;
+	left:5%;
+	color:#000;
+	border: 2px solid #222;
+	width:90%;
+	margin:0 auto;
+	background: #FFF;
+	z-index: 999;
+	margin-top:-2px;
+	-moz-box-shadow: 0 0 10px 2px #111;
+	-webkit-box-shadow: 0 0 10px 2px #111;
+	box-shadow: 0 0 10px 2px #111;
+	}
+
+div#footer h2 {
+	color:#F60;
+	}
+
+div#footer a {
+	color:#21b300;
+	font-weight:bold;
+	}
+
+div#footer a:hover {
+	color:#F60;
+	}
+ 
+a.download {
+	font-size: 1.2em;
+	margin-left:30px;
+	text-align:center;
+}
+
+.textShadow {
+text-shadow: 1px -2px 1px #111;
+margin: 0px;
+margin-top:-10px;
+line-height: 1em;
+padding: .5em;
+
+text-align: center;
+font-family: futura, 'gill sans', verdana, helvetica, arial;
+font-size: 2.8em;
+font-weight: bold;
+}
+
+/* Theme Fonts */
+h1{font-size:45px;} h2{font-size:30px;} h3{font-size:25px;} h4{font-size:23px;}
+h1,h4,h5,h6,strong{font-weight:bold;}
+
+h4 {font-size: 28px;}
+h4:first-letter {font-size: 32px;}
+blockquote,ul,ol,dl{margin:1.2em;}
+ol,ul,dl{margin-left:2em;}
+ol li{list-style:none;}
+ul li{list-style:none;}
+dl dd{margin-left:1em;}
+
+li.S, li.style {background: #f6f6f6;border-bottom:1px inset #666;padding:2px 0 8px 20px;font-size:15px;min-height:10px;height:10px;}
+li.S:nth-child(2n), li.style:nth-child(2n) {background: #dbdbdb}
+
+/* Fun Fonts Styling and img padding */
+.plain { text-align: left;font-size:1.2em;
+font-family: futura, 'gill sans', verdana, helvetica, arial;}
+
+p.english:first-letter {
+font-size:1.3em;
+font-family:Georgia,serif;
+text-transform:capitalize;font-variant: small-caps;
+text-align: left;
+margin-bottom:1em;
+line-height:15px;
+letter-spacing:.11em;
+}
+
+p.texty {
+	border:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1.3em;
+	margin:10px 0 0 0;
+}
+
+p.texty:first-letter {
+	font-size:1.3em;
+	font-family:Verdana, Geneva, sans-serif;
+	text-transform: none;
+	font-variant: none;
+	text-align: left;
+	margin-bottom: 0;
+	line-height: inherit;
+	letter-spacing: inherit;
+}
+
+p.italic {
+	font-style: italic;
+	font-size:1em;
+}
+
+p.footerText {
+margin-top:10px;
+padding-top:15px;
+text-align:center;
+line-height:20px;
+height:20px;
+}
+
+.footnote {
+font-style: italic;
+font-size:0.81em;
+line-height:1.1em;
+}
+
+.engraved 
+{
+text-shadow: 0px 1px 1px #fff;
+}
+
+img { margin:5px; }
+img a, a img { border:none;text-decoration:none;outline:none; }
+img.logo {margin:0;margin-top:2px;padding:3px;}
+img.style, img.S { padding:5px }
+
+/* Fancy CSS Shits */
+/* ie 6 and older browsers dont support this. */
+.shadow {
+
+-moz-box-shadow: 2px 2px 4px #111;
+-webkit-box-shadow: 2px 2px 4px #111;
+box-shadow: 2px 2px 4px #111;
+/* For IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#111111')";
+/* For IE 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#111111');
+}
+
+/* CSS CORNERS */
+.round {padding:5px;-moz-border-radius: 5px;border-radius: 5px;}
+
+.shadowRound{padding:5px;-moz-border-radius: 5px;border-radius: 5px;
+-moz-box-shadow: 2px 2px 4px #111;
+-webkit-box-shadow: 2px 2px 4px #111;
+box-shadow: 2px 2px 4px #111;
+/* For IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#111111')";
+/* For IE 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#111111');
+}
+
+.glass {
+   /*width: 100px;
+   height: 100px;*/
+   margin: 10px;
+   padding: 5px;
+   border: 1px solid rgba(0,0,0,0.5);
+   border-radius: 10px 10px 2px 2px;
+   background: rgba(0,0,0,0.25);
+   box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+}
+
+/* Border Quick Styles */
+.inset { padding:5px;border:1px inset #888888}
+.solid { padding:5px;border:2px solid #222222}
+
+/* Easy Margins and Paddings */
+/* Remember: Top Left Bottom Right */
+.m5 {margin:0 5px 0 5px;}
+.m10 {margin:10px 10px 10px 10px}
+.m15 {margin:0 7.5px 0 7.5px}
+.p5 {padding: 5px}
+.p10 {padding:10px 10px 10px 10px}
+.p15 {padding:0 7.5px 0 7.5px}
+.zero {margin:0;padding:0}
+
+
+.color {text-decoration: none;}
+a.color:hover,a.color:active,a.color {text-decoration: none;font-size:1.1em;}
+
+/* Text Color Classes */
+.red {color: #F00;} 
+.orange {color: #F60;} 
+.yellow {color: #FF0;} 
+.green {color: #0C0;} 
+.blue {color: #06F;} 
+.purple {color: #FA0096;} 
+.white {color: #FFFFFF;} 
+.black {color: #000000;}
+
+/* Complimentary Color / Effects */
+a.red:hover {color:#C40000}
+a.orange:hover {color: #FF7913;} 
+a.yellow:hover {color: #FFB412;} 
+a.green:hover {color: #00AD0E;} 
+a.blue:hover {color: #09F;} 
+a.purple:hover {color: #9D16D3;} 
+a.white:hover {color: #999999;} 
+a.black:hover {color: #666666;}
+
+
+/* Background Color Classes */
+.redb {background-color: #F00;} .orangeb {background-color: #F60;} 
+.yellowb {background-color: #FF0;} .greenb {background-color: #0C0;} 
+.blueb {background-color: #06F;} .purpleb {background-color: #5C00FA;} 
+.whiteb {background-color: #FFFFFF;} .blackb {background-color: #000000;}
+.greyb {background-color:#333}
+
+.OL {
+border:2px solid #06F;
+background-color: #5C00FA;
+}
+
+table.codeTable {
+	width:970px;
+	height:500px;
+	max-width:970px;
+	max-height:500px;
+	overflow:hidden !important;
+	color:#FFFFFF;
+}
+
+tr:nth-child(2n) {background:#111}
+
+tr:first-child {background: #FFF;color:#000;font-weight:bold}
+
+/* Standard Floats */
+/* Easy Float / Quick Alignment */
+.L, .l {float:left;}
+.R, .r {float:right;}
+.C, .c {margin-left: auto;margin-right: auto;text-align:center;}
