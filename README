@@ -1,0 +1,29 @@
+       _            ______ _                       _____ 
+      (_)           | ___ \ |                     / __  \
+  __ _ _  __ ___  __| |_/ / | __ _ _   _  ___ _ __`' / /'
+ / _` | |/ _` \ \/ /|  __/| |/ _` | | | |/ _ \ '__| / /  
+| (_| | | (_| |>  < | |   | | (_| | |_| |  __/ |  ./ /___
+ \__,_| |\__,_/_/\_\\_|   |_|\__,_|\__, |\___|_|  \_____/
+     _/ |                           __/ |                
+    |__/                           |___/                 
+
+**********************************************************
+Created By Johnny Fortune [jf@huement.com]
+April 11th 2011
+
+Demo Page| http://www.huement.com/code/ajaxPlayer2/
+
+Adapted from jPlayer [http://www.jplayer.org]
+**********************************************************
+
+This is a modified jPlayer that allows for the creating and editing of dynamic playlists. Using PHP it searches through an array of given directories and returns JSON formatted results.
+
+Using ajax success functions songs are loaded into the playlist. The full list of commands is currently |
+
+ * Add Songs
+ * Delete Songs
+ * New Playlist (Reset)
+ * Shuffle Playlist
+ * Play Forever (infinite play)
+
+If you would like more info, please seek out the jPlayer google group or visit my blog at http://www.huement.com/blog
