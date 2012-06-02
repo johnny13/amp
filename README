@@ -1,22 +1,25 @@
-       _            ______ _                       _____ 
-      (_)           | ___ \ |                     / __  \
-  __ _ _  __ ___  __| |_/ / | __ _ _   _  ___ _ __`' / /'
- / _` | |/ _` \ \/ /|  __/| |/ _` | | | |/ _ \ '__| / /  
-| (_| | | (_| |>  < | |   | | (_| | |_| |  __/ |  ./ /___
- \__,_| |\__,_/_/\_\\_|   |_|\__,_|\__, |\___|_|  \_____/
-     _/ |                           __/ |                
-    |__/                           |___/                 
+
+                     _               ____   __                         
+           ____ _   (_)____ _ _  __ / __ \ / /____ _ __  __ ___   _____
+          / __ `/  / // __ `/| |/_// /_/ // // __ `// / / // _ \ / ___/
+         / /_/ /  / // /_/ /_>  < / ____// // /_/ // /_/ //  __// /    
+         \__,_/__/ / \__,_//_/|_|/_/    /_/ \__,_/ \__, / \___//_/     
+              /___/                               /____/               
+
 
 **********************************************************
-Created By Johnny Fortune [jf@huement.com]
-April 11th 2011
+Created By Derek Scott [derek@huement.com]
+April 20th 2011
 
-Demo Page| http://www.huement.com/code/ajaxPlayer2/
+Demo Page| http://dev.huement.com/ajaxplayer/
 
 Adapted from jPlayer [http://www.jplayer.org]
 **********************************************************
 
-This is a modified jPlayer that allows for the creating and editing of dynamic playlists. Using PHP it searches through an array of given directories and returns JSON formatted results.
+AjaxPlayer has a number of options for playing Audio and Video. It supports HTML5 and Flash, along with MP3 OGG and MP4 codecs.
+You can either use included PHP scripts to create dynamic playlists based on directory contents, or choose the standard XML playlist.
+
+The standard playlist requires no server side code and can be hosted in a dropbox or s3 bucket.
 
 Using ajax success functions songs are loaded into the playlist. The full list of commands is currently |
 
@@ -26,4 +29,4 @@ Using ajax success functions songs are loaded into the playlist. The full list o
  * Shuffle Playlist
  * Play Forever (infinite play)
 
-If you would like more info, please seek out the jPlayer google group or visit my blog at http://www.huement.com/blog
+If you would like more info, please seek out the jPlayer google group or visit http://dev.huement.com/ajaxplayer
