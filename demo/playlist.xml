@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <playlist>
 <item>
-	<title>8bp003-01 - yuppster - in the field</title>
-	<mp3>http://www.huement.com/git/huement-ui/demo/songs/8bp003-01-yuppster-in_the_field.mp3</mp3>
-	<ogg>http://www.huement.com/git/huement-ui/demo/songs/8bp003-01-yuppster-in_the_field.ogg</ogg>
+	<title>Isaac Graham - Photographs And Histories</title>
+	<mp3>http://huement.s3.amazonaws.com/demos/songs/Isaac%20Graham%20-%20Empty%20Vessels/01%20Photographs%20And%20Histories.mp3</mp3>
+	<ogg>http://huement.s3.amazonaws.com/demos/songs/Isaac%20Graham%20-%20Empty%20Vessels/01%20Photographs%20And%20Histories.ogg</ogg>
 </item>
 <item>
-	<title>8bp003-01 - yuppster - the_living_planet</title>
-	<mp3>http://www.huement.com/git/huement-ui/demo/songs/8bp003-02-yuppster-the_living_planet.mp3</mp3>
-	<ogg>http://www.huement.com/git/huement-ui/demo/songs/8bp003-02-yuppster-the_living_planet.ogg</ogg>
+	<title>Isaac Graham - Gold And Steel</title>
+	<mp3>http://huement.s3.amazonaws.com/demos/songs/Isaac%20Graham%20-%20Empty%20Vessels/02%20Gold%20And%20Steel.mp3</mp3>
+	<ogg>http://huement.s3.amazonaws.com/demos/songs/Isaac%20Graham%20-%20Empty%20Vessels/02%20Gold%20And%20Steel.ogg</ogg>
 </item>
 <item>
-	<title>Radio Orphans - Ides of March</title>
-	<mp3>http://www.huement.com/git/huement-ui/demo/songs/Radio%20Orphans%20-%20Ides%20Of%20March/Radio%20Orphans%20-%20Ides%20Of%20March.mp3</mp3>
-	<ogg>http://www.huement.com/git/huement-ui/demo/songs/Radio%20Orphans%20-%20Ides%20Of%20March/Radio%20Orphans%20-%20Ides%20Of%20March.ogg</ogg>
+	<title>Isaac Graham - Karl Marx And The Reds</title>
+	<mp3>http://huement.s3.amazonaws.com/demos/songs/Isaac%20Graham%20-%20Empty%20Vessels/03%20Karl%20Marx%20And%20The%20Reds.mp3</mp3>
+	<ogg>http://huement.s3.amazonaws.com/demos/songs/Isaac%20Graham%20-%20Empty%20Vessels/03%20Karl%20Marx%20And%20The%20Reds.ogg</ogg>
+</item>
+<item>
+	<title>Isaac Graham - This Old Town</title>
+	<mp3>http://huement.s3.amazonaws.com/demos/songs/Isaac%20Graham%20-%20Empty%20Vessels/04%20This%20Old%20Town.mp3</mp3>
+	<ogg>http://huement.s3.amazonaws.com/demos/songs/Isaac%20Graham%20-%20Empty%20Vessels/04%20This%20Old%20Town.ogg</ogg>
+</item>
+<item>
+	<title>Isaac Graham - Empty Vessels</title>
+	<mp3>http://huement.s3.amazonaws.com/demos/songs/Isaac%20Graham%20-%20Empty%20Vessels/05%20Empty%20Vessels.mp3</mp3>
+	<ogg>http://huement.s3.amazonaws.com/demos/songs/Isaac%20Graham%20-%20Empty%20Vessels/05%20Empty%20Vessels.ogg</ogg>
 </item>
 </playlist>
