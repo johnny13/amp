@@ -1,4 +1,6 @@
 /*
+ * Majority of this is based on
+ *
  * jPlayer Plugin for jQuery JavaScript Library
  * http://www.jplayer.org
  *
