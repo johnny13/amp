@@ -1,0 +1,325 @@
+#ytplayer{margin-left:5px;padding:4px;
+background:#333;
+border:1px solid #666;
+z-index:25 !important;
+margin-bottom:-4px !important;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow:0 0 2px #E2E2E2;
+-moz-box-shadow:0 0 2px #E2E2E2;
+box-shadow:0 0 2px #E2E2E2;
+}
+
+/*main controls*/
+div.jYTp-interface {
+	font-size:1.25em;
+	font-family:Verdana, Arial, sans-serif;
+	line-height:1.6;
+	color: #333;
+	position: relative;
+	width:422px;
+	background: url("luckyYT.back.png") no-repeat;
+	height:67px;
+	margin-bottom:-1px;
+	overflow:hidden;
+}
+div.jYTp-interface ul.jYTp-controls li {
+	/* position: absolute; */
+	display:inline;
+}
+div.jYTp-interface ul.jYTp-controls a {
+	position: absolute;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+
+/* PLAY PAUSE */
+a.jYTp-play,
+a.jYTp-pause {
+	width:57px;
+	height:55px;
+	z-index:1;
+}
+div.jYTp-interface a.jYTp-play,
+div.jYTp-interface a.jYTp-pause {
+	top:6px;
+	left:8px;
+}
+a.jYTp-play {
+	background: url("lucky.jYTp.png") 0px 0px no-repeat;
+}
+a.jYTp-play:hover {
+	background: url("lucky.jYTp.png") -65px 0px no-repeat;
+}
+a.jYTp-pause {
+	background: url("lucky.jYTp.png") 0px -57px no-repeat;
+	display: none;
+}
+a.jYTp-pause:hover {
+	background: url("lucky.jYTp.png") -65px -57px no-repeat;
+}
+
+/* STOP */
+div.jYTp-interface a.jYTp-stop {
+	top:16px;
+	left:126px;
+	display:none;
+}
+a.jYTp-stop {
+	background: url("lucky.jYTp.png") 0 -83px no-repeat;
+	width:28px;
+	height:28px;
+	z-index:1;
+}
+a.jYTp-stop:hover {
+	background: url("lucky.jYTp.png") -29px -83px no-repeat;
+}
+
+/* LOAD VIDEO */
+div.jYTp-interface a.jYTp-next {
+	left:68px;
+	top:11px;
+}
+a.jYTp-next {
+	background: url("lucky.jYTp.png") 0px -159px no-repeat;
+	width:46px;
+	height:46px;
+}
+a.jYTp-next:hover {
+	background: url("lucky.jYTp.png") -65px -159px no-repeat;
+}
+
+/* mute */
+a.jYTp-mute,
+a.jYTp-unmute {
+	width:65px;
+	height:18px;
+}
+
+div.jYTp-interface a.jYTp-mute,
+div.jYTp-interface a.jYTp-unmute {
+	top:15px;
+	left:125px;
+}
+
+a.jYTp-mute {
+	background: url("lucky.jYTp.png") 0px -210px no-repeat;
+}
+a.jYTp-mute:hover {
+	background: url("lucky.jYTp.png") -64px -210px no-repeat;
+}
+a.jYTp-unmute {
+	background: url("lucky.jYTp.png") -132px -210px no-repeat;
+}
+a.jYTp-unmute:hover {
+	background: url("lucky.jYTp.png") -204px -210px no-repeat;
+}
+
+div.jYTp-current-time,
+div.jYTp-duration {
+	position: relative;
+	color:#06AC00;
+	float:left;
+	font-family: Verdana,Arial,sans-serif; 
+	font-size: .75em; 
+}
+
+div.jYTp-duration {
+	text-align: right;
+	font-weight:250;
+	top:11px;
+	left:320px;
+	min-width:80px !important;
+	width:80px;
+}
+
+div.jYTp-current-time {
+	top:9px;
+	left:255px;
+	width:40px;
+}
+
+#timebar {
+width:286px;
+height:18px;
+position: relative;
+top:37px;
+left:120px;
+background: url("lucky.jYTp.png") 0px -268px no-repeat;
+}
+
+#timebarIndicator {
+	width:0px;
+	height:18px;
+	position: relative;
+	top:0px;
+	left:0px;
+	background: url("lucky.jYTp.png") 0px -292px no-repeat;
+}
+
+#volumeBox {
+width:130px;
+height:18px;
+float:left;
+position: relative;
+top:-3px;
+left:118px;
+display:none;
+}
+
+.vBox {
+	min-width:16px;min-height:16px;height:16px;width:16px;border:1px solid #999;
+	float:left;
+	margin:0 4px 0 4px;
+	cursor:pointer;
+}
+
+/*playlist*/
+#ytUL{
+	background:#FFF;
+	width:410px;
+	margin:0;padding:0;
+	margin-left:5px;
+}
+
+li.yt {
+	list-style:none;
+	padding:0px;
+	margin:0 0 5px 0;
+	height:70px;
+	min-height:60px;
+	max-height:80px;
+	overflow:hidden;
+	background:#FFF;
+	width:400px;
+	float:left;
+}
+
+li.yt:nth-child(2n) {
+	margin-top:-20px;
+}
+
+h3.ytTtile {
+	color:#06AC00;
+	margin:0;
+	padding:0;
+	font-weight:350px;
+	font-size:1.3em;
+	font-variant:normal;
+	font-family:Verdana, Arial, sans-serif;
+	line-height:1.31;
+	float:left;
+}
+
+li.yt img {
+	width:50px;
+	height:50px;
+	float:right;
+	padding: 5px;
+	border: 1px solid rgba(0,0,0,0.5);
+	border-radius: 10px 10px 2px 2px;
+	background: rgba(0,0,0,0.25);
+	box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+	-o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+}
+
+h3.ytTtile:after {
+clear:both;
+}
+
+hr.ytHR {
+	margin:0 auto;
+	width:80%;
+}
+
+.slide {
+	margin: 0px;
+	width:422px;
+	margin-top: 0px;
+	height:31px;
+	padding: 0px;
+	background: 0px -73px;
+	background-image: URL("luckyYT.back.png");
+}
+
+/*********************************************
+YOUTUBE STYLES
+*********************************************/
+#searchResultsVideoColumn {
+position: relative; /*or absolute*/
+z-index: 25;
+}
+
+.yt-slide {cursor:pointer;}
+
+.ytBar {padding:0px 5px 0 5px;min-width:500px;width:99%;margin-left:1%;margin-top:5px;}
+
+.searchYT{clear:none;width:230px;float:right;margin-top:2px;padding:2px 5px 2px 23px;
+background:#E2E2E2 url('http://www.discordial.com/li/library/favicons/youtube-16.png') no-repeat 4px 50%;}
+
+table.videoList img { width:80px; }
+
+#navigationForm {
+	width:95%;
+}
+
+div#searchResultsVideoList img, div#searchResultsVideoList img.ythumb {width:130px;height:90px}
+
+#googleLogin{float:left;margin: 0px 0px 0px 20px;opacity: 0.7;}
+
+#YTsearchTerm {
+clear:none;width:230px;
+float:right;
+margin:3px 5px 5px 0px;
+padding:3px 5px 3px 25px;
+background:#E2E2E2 url('http://www.discordial.com/li/library/favicons/youtube-16.png') no-repeat 4px 50%;
+font-size:22px;
+font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
+/*shadow */ 
+border:1px inset #DADADA;
+}
+
+#YTsearchTerm:focus { 
+background:#FFFFFF url('http://www.discordial.com/li/library/favicons/youtube-16.png') no-repeat 4px 50%;
+/*shadow */ 
+padding:3px 5px 3px 25px;
+margin:3px 5px 5px 0px;
+border:1px inset #DADADA;
+-webkit-box-shadow:0 0 2px #f0f0f0;
+-moz-box-shadow:0 0 2px #f0f0f0;
+box-shadow:0 0 2px #f0f0f0;
+}	
+
+.ytCommentBox {width:400px;height:150px;padding:10px 5px 10px 5px;font-size:22px;
+font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
+/*shadow */ 
+border:1px inset #DADADA;
+}
+
+.ytCommentBox:focus {
+border:1px inset #DADADA;
+-webkit-box-shadow:0 0 2px #E2E2E2;
+-moz-box-shadow:0 0 2px #E2E2E2;
+box-shadow:0 0 2px #E2E2E2;
+}
+
+/*--TOP BAR--*/
+#youTubeBar {padding:15px 5px 0 5px;min-width:500px;width:97%;margin-left:1%;margin-top:5px;float:left;}
+
+.ytAvatar { width:50px;height:50px;margin-top:-10px;float:left;margin-right:5px;margin-left:-5px; }
+
+.ythumb {
+float:right;
+padding: 3px;
+border: 1px solid rgba(0,0,0,0.5);
+border-radius: 10px 10px 2px 2px;
+background: rgba(0,0,0,0.25);
+box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+-o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+-webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+-moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+}
+
+/*--youtube--*/

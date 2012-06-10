@@ -5,31 +5,37 @@
 	<meta name="description" content="">
 	<!-- Mobile viewport -->
 	<meta name="viewport" content="width=device-width">
-	<title>HUI | </title>
-	<link rel="stylesheet" type="text/css" href="http://huement.s3.amazonaws.com/code/hui/themes/default/hui_li3.css"/>
-	<!-- Demo Styles -->
-	<link rel="stylesheet" media="screen" type="text/css" href="css/ajaxPlayer.css" />
+	<title>Fixed UI. DYNAMIC PHP GENERATED Playlist</title>
+	<link rel="stylesheet" type="text/css" href="../css/ringo.css"/>
+	<!-- Demo Styles
+	<link rel="stylesheet" media="screen" type="text/css" href="../css/demo.css" />
+	<link rel="stylesheet" media="screen" type="text/css" href="../css/fluidPlayer.css"/>
+	-->
+	<link rel="stylesheet" media="screen" type="text/css" href="../css/fixedPlayer.css" />
+	<link rel="stylesheet" media="screen" type="text/css" href="../skin/lucky3.css" />	
+	<link rel="stylesheet" media="screen" type="text/css" href="../css/demo.css" />
 	<style type="text/css">
-	.two { padding:10px; width:45%;font-size:1.3em;line-height:1.5em;font-style:italic;}
-	#groupTwo {width:95%;display:block;position:relative;margin:0 auto;margin-top:5px;}
-	.tC {text-align:center;}
+
 	</style>
 	
 	<script type="text/javascript" src="http://huement.s3.amazonaws.com/code/jquery.js"></script>
 	<script type="text/javascript" src="http://huement.s3.amazonaws.com/code/hui/hui-min.js"></script>
 	<!--[if lt IE 9]> <script src="http://huement.s3.amazonaws.com/code/IE9.js"></script> <![endif]-->
 	
-		<!-- OPTIONAL WIDGETS 
-		<script type="text/javascript" src="http://huement.s3.amazonaws.com/code/hui/widgets/tickTock_title.js"></script> -->
-		<!-- xmlplayer widget scripts -->
-		<script type="text/javascript" src="js/ajaxplayer.js"></script>
-		<script type="text/javascript" src="js/xmlPlayer.js"></script>
+		<!-- xmlplayer widget | Flash Fallback scripts -->
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script>google.load("swfobject", "2.1");</script>
+		<!-- xmlplayer widget | Main jQuery Plugins -->
+		<script type="text/javascript" src="../js/ajaxPlayer_fixed.js"></script>
+		
+		<!-- xmlplayer widget | Main jQuery Plugins -->
+		<script type="text/javascript" src="js/fixed_xml_Sample.js?ver=23"></script>
 </head>
 <body>
 	<!-- ***** HEADER START ***** -->
 	<div id="header">
 	    <!-- logo -->
-	    <div id="logo"><a href="http://www.huement.com/ajaxplayer"><img src="http://huement.s3.amazonaws.com/imgs/huement@48.png" alt="huement portfolio homepage" width="225" height="40"></a></div>
+	    <div id="logo"><a href="http://dev.huement.com/ajaxplayer"><img src="http://huement.s3.amazonaws.com/imgs/huement@48.png" alt="huement portfolio homepage" width="225" height="40"></a></div>
 	    <!-- logo -->
 	    <!-- main menu -->
 	    <div class="main_menu">
@@ -42,29 +48,72 @@
 <div id="container">
 	<div id="content"> 
 		
-	
-		<div id="groupTwo">
-			
-		<div class="columnL two">
-			<h1 class='tC'>Fixed PSD</h1><hr/>
-			<h3 class="L">Dynamic Playlist</h3>
-			<p class="L">Vestibulum tortor felis, commodo in consectetur at, tincidunt nec ante. Duis urna neque, posuere et venenatis id, malesuada id nulla. Ut lorem risus.</p>
-			<br/>
-			<h3 class="L">XML Fixed Playlist</h3>
-			<p class="L">Vestibulum tortor felis, commodo in consectetur at, tincidunt nec ante. Duis urna neque, posuere et venenatis id, malesuada id nulla. Ut lorem risus.</p>
-		</div>
-		
-		<div class="columnR two">
-			<h1 class='tC'>Fluid HUI</h1><hr/>
-			<h3 class="L">Dynamic Playlist</h3>
-			<p class="L">Vestibulum tortor felis, commodo in consectetur at, tincidunt nec ante. Duis urna neque, posuere et venenatis id, malesuada id nulla. Ut lorem risus.</p>
-			<br/>
-			<h3 class="L">XML Fixed Playlist</h3>
-			<p class="L">Vestibulum tortor felis, commodo in consectetur at, tincidunt nec ante. Duis urna neque, posuere et venenatis id, malesuada id nulla. Ut lorem risus.</p>
-		</div>
-		<br/>
-		</div>
+		<div class="boxFull" style="margin-top:100px;">
+			<div id="rightToolBox" style="width:300px;background:#FFF;">
+				<div id="genres">
+					<h2>More Info</h2>
+						<hr />
+						<p class="mailTools" style="margin:10px 0 0 20px">
+						
+						</p>
+				</div>
+			</div>
+		<!-- CLEAR -->
+			<div id="content_player" style="margin:50px 0 0 10px">
+				<!-- jPlayer 2 -->
+					<div id="jquery_jplayer_3" class="jp-jplayer"></div>
+					  <div class="jp-audio">
+						<div class="jp-type-playlist">
+							<div id="jp_interface_3" class="jp-interface">
+								<ul class="jp-controls">
+									<li><a href="#" class="jp-play" tabindex="1">play</a></li>
+									<li><a href="#" class="jp-pause" tabindex="1" style="display: none; ">pause</a></li>
+									<li><a href="#" class="jp-stop" tabindex="1">stop</a></li>
+									<li><a href="#" class="jp-mute" tabindex="1">mute</a></li>
+									<li><a href="#" class="jp-unmute" tabindex="1" style="display: none; ">unmute</a></li>
+									<li><a href="#" class="jp-previous" tabindex="1">previous</a></li>
+									<li><a href="#" class="jp-next" tabindex="1">next</a></li>
+									<li><a href="#" class="jp-toggle-on tipTip" title="add music" tabindex="1">toggle-on</a></li>
+									<li><a href="#" class="jp-toggle-off tipTip" title="playlist" style="display:none" tabindex="1">toggle-off</a></li>
+									<li><a href="#" class="jp-shuffle tipTip" title="shuffle" tabindex="1">shuffle</a></li>
+									
+								</ul>
+								<div class="jp-progress">
+									<div class="jp-seek-bar" style="width: 100%; ">
+										<div class="jp-play-bar" style="width: 0%; "></div>
+									</div>
+								</div>
+								<div class="jp-volume-bar">
+									<div class="jp-volume-bar-value" style="width: 80%; "></div>
+								</div>
+								
+								
+								
+								<div class="jp-current-time">00:00</div>
+								<div class="jp-duration">04:20</div>
+							</div>
 
+							<div id="panel">
+								<div id="jp_playlist_3" class="jp-playlist">
+									<ul class='playList'>
+									</ul>
+								</div>
+							</div>
+							
+							
+							<div class="jp-directoryView">
+								<ul class='directoryView'>
+								</ul>
+							</div>
+
+							
+							<div class="slide btn-slide"><div id="current-time"></div><div id="duration"></div></div>
+						</div>
+					</div>
+				<!-- jPlayer 2 -->
+			</div>
+		</div>
+		<div class="push"></div>
 			
 	</div>
 <!-- end #container --></div>
