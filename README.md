@@ -1,4 +1,16 @@
-hui widget - ajax media player
+
+        _..._      _.._
+      .'     `'._.'    '.
+     /            __   .-'
+    |      :]___.'__'./______________._I_I_I.
+    |      :|========================I=_____(
+    |      :]"""'.__.;"""""""""""""""''I I I'
+     \          __   |
+      '._   _.-'  `'._\
+
+
+
+amp - ajax media player
 ---------------------------------------------
 This is all about the Media Player widget for Huement User Interface. It is not included in the basic HUI package and must be included separately on any page you want to play HTML5 Audio and Video. You will also need to include a SWF Flash fallback for older devices (should you wish to support them). There are numerous ways to do this, but we recommend Google's method. More on required scripts later.
 
