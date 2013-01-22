@@ -12,63 +12,44 @@
 o8c       o8o o88888o o8c         o         o8oo8888o 8 8888		 
 ```
 
+hui - amp [ajax media player]
+======
 
-hui's amp [ajax media player]
----------------------------------------------
-This is all about the Media Player widget for Huement User Interface. It is not included in the basic HUI package and must be included separately on any page you want to play HTML5 Audio and Video. You will also need to include a SWF Flash fallback for older devices (should you wish to support them). There are numerous ways to do this, but we recommend Google's method. More on required scripts later.
+Let DJ Ralphio drop some fresh YouTube Beats on your audience.    
+This Plugin creates a youtube playlist based on video ids. Very simple to use, awesome results.    
+    
+    //add the plugin repo if you have not already
+    git clone https://github.com/johnny13/hui-plugins.git
+    
+    //initialize ralphio plugin
+    git submodule init amp
+    
 
-Why You might want AMP
-----------------------
-AMP is great at playing all sorts of Audio and Video Codecs. Unlike traditional audio and video players which rely heavily on CSS Sprites or Massive image files for their markup, AMP is dynamic. It will scale to your viewport. This means the same music player will work on an iPhone, or a Desktop.
+## More Info & Documentation 
+Visit the [hui](http://hui.huement.com) website for documentation and examples for each hui plugin.    
+Specifically checkout the Laboratory section: [hui](http://hui.huement.com/labs)    
 
-AMP relies heavily on HUI for this. It might be possible to adapt AMP to other projects without HUI, but the HUI base file is only like 10kb anyways, So I recommend just using that for your reset (im biased).
+## Why Like This?
+Plugins and widgets can be awesome, when they work and play nice with the rest of your site. Often times you forced to pick and choose plugins only to find they have conflicts when loaded together. Or you never go back to the authors page and manually see if its been updated. Further more, do you need that plugin on every page?    
 
-AMP allows you to easily load in an XML File, or send a JSON array with your Playlist Information. It also does most of the markup creation in the code, so there is very little work for the developer. Making it ideal for situations where the person creating the playlist doesn't know alot of HTML coding.
+hui uses a slightly different plugin system than most other user interfaces. Instead of rolling your own one time version, we encourage you to take a more dynamic approach. Allowing you to easily integrate plugins, and keep a modular architecture.
+   
+Additionally, each plugin has a test suite, which allows you to target and problematical errors or conflicts a plugin may be having with your existing code.
 
-Installing AMP
---------------
-Like most jQuery plugins, this one comes in two parts. The Plugin file [amp.js] and the CSS Style sheet theme of your choosing.
+## Updating Plugins
+Updating Plugins is as easy as running "git update remote" on any of the plugins. If you have made changes, use the git command's built in stash feature to save your local changes.    
 
-Wordpress Plugin
-----------------
-AMP IS ALREADY INCLUDED in the main HUI wordpress theme. This is super simple for creating playlists as blog posts or side bar widgets.
+Basically, any of the cool stuff you can do with git is there. Fork, Push, Pull, and all the rest.
 
-AMP PLAYLIST CREATION
----------------------
-You can use the HUI website to create AMP Playlists for you. The media will automatically be stored in your Dropbox or Google Drive folder.
+## Major Changelog
+   
+v0.0.1	[jan-21-2013]	Released under GPL v3 & MIT    
+    
 
-Acknowledgements
-----------------
-hui | huement user interface
+## De jure
+#### copyright (c) 2013 [huement.com](http://huement.com)    
+Licensed under the [MIT](http://www.opensource.org/licenses/mit-license.php) & [GPL v3](http://opensource.org/licenses/gpl-3.0.html) licenses.    
+    
+Author: Derek Scott [@huement.com](https://twitter.com/huement).    
 
-Copyright (c) 2012 huement
-Licensed under the MIT and GPL licenses.
-http://www.opensource.org/licenses/mit-license.php
-http://opensource.org/licenses/gpl-3.0.html
-
-Author: Derek Scott @huement.
-
-```html
-            $$$$$$$$$$$$$$$$$$$
-          $$$$$$$$$$$$$$$$$$$$$$$
-       $$$$   $$$$$$$$$$$$$$$   $$$
-     $$$$      $$$$$$$$$$$$      $$$$
-   $$$$$        $$$$$$$$$$        $$$$
-  $$$$$          $$$$$$$$           $$$$
- $$$$$            $$$$$$            $$$$$
-$$$$$$            $$$$$$$            $$$$$
-$$$$$$           $$$$$$$$$           $$$$$$
-$$$$$$$         $$$ $$$ $$$         $$$$$$$
-$$$$$$$$      $$$$   $   $$$$      $$$$$$$$
-$$$$$$$$$$$$$$$$$   $$$   $$$$$$$$$$$$$$$$$
-$$$ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ o$$
-$$$  $$$$$$$ $$$$$$$$$$$$$$$$$$$$$$$$$$  $$$
- $$$  $'$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  o$$$
- '$$o  $$  $$'$$$$$$$$$$$$$$'$$  $$     o$$
-   $$o$    $$  '$$'$$'$$'  $$      $   o$$
-    $$$o$  $    $$   $$   $$     $$  o$
-     '$$$$O$    $$    $$   $$     o$$$
-        '$$o$$   $$   $$   $$   o$$$
-          '$$$$o$o$o$o$o$o$o$o$$$$'
-             '$$$$$$$$$$$$$$$$$$
-```
+![HUI - Huement User Interface](http://huement.s3.amazonaws.com/imgs/white_pumpkin.jpg)
