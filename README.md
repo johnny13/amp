@@ -26,20 +26,21 @@ This Plugin creates a youtube playlist based on video ids. Very simple to use, a
     
 
 ## More Info & Documentation 
-Visit the [hui](http://hui.huement.com) website for documentation and examples for each hui plugin.    
-Specifically checkout the Laboratory section: [hui](http://hui.huement.com/labs)    
 
-## Why Like This?
-Plugins and widgets can be awesome, when they work and play nice with the rest of your site. Often times you forced to pick and choose plugins only to find they have conflicts when loaded together. Or you never go back to the authors page and manually see if its been updated. Further more, do you need that plugin on every page?    
+Coming Soon. 
+    
+Source Code and demo pages are well documented.
 
-hui uses a slightly different plugin system than most other user interfaces. Instead of rolling your own one time version, we encourage you to take a more dynamic approach. Allowing you to easily integrate plugins, and keep a modular architecture.
-   
-Additionally, each plugin has a test suite, which allows you to target and problematical errors or conflicts a plugin may be having with your existing code.
+## Sample Media
 
-## Updating Plugins
-Updating Plugins is as easy as running "git update remote" on any of the plugins. If you have made changes, use the git command's built in stash feature to save your local changes.    
+the scripts reference a local folder called "songs". If you already have media its probably easier
+to reference your existing items then download a bunch of random songs you will probably hate.
 
-Basically, any of the cool stuff you can do with git is there. Fork, Push, Pull, and all the rest.
+If you do want the exact sample folder that is used its here:
+
+[http://huement.s3.amazonaws.com/demos/songs.zip](http://huement.s3.amazonaws.com/demos/songs.zip)    
+
+This file is about 70mb.
 
 ## Major Changelog
    
