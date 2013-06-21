@@ -1,0 +1,43 @@
+html, body { 
+	min-height: 100% !important; 
+	height: 100% !important; 
+	width:100%;
+	display:block;
+	background-image:url("http://huement.s3.amazonaws.com/imgs/grid.png");
+	background-repeat:repeat;
+}
+/*****************
+ * HEADER STYLES *
+ *****************/
+#header{
+height:65px;
+width:100%;
+background-image: url("http://huement.s3.amazonaws.com/imgs/bg_main.png");
+background-repeat: repeat-x;
+position:absolute;
+top:0;
+left:0;
+z-index:900;
+border-bottom:none;
+}
+@media screen{
+  body>div#header{
+   position: fixed;
+  }
+ }
+#logo{
+	float:left;
+	padding:8px 80px 0 20px;
+}
+.main_menu {
+	float:left;
+}
+.title_text {
+	text-align:center;
+	color:#F8F8F8;
+	text-shadow: 1px -1px 1px #999;
+	clear:none;
+	margin-top:0;
+	line-height:1.4em;
+	font-size:2.5em;
+}

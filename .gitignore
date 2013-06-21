@@ -1,3 +1,8 @@
+songs/*
+
+*.mp3
+
+*.tmproj
 
 .DS_Store
 

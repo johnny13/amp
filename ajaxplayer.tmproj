@@ -10,19 +10,19 @@
 			<key>filename</key>
 			<string>index.html</string>
 			<key>lastUsed</key>
-			<date>2012-10-13T20:35:47Z</date>
+			<date>2012-10-08T21:35:46Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>demo/fluid_xml.html</string>
 			<key>lastUsed</key>
-			<date>2012-10-13T20:35:48Z</date>
+			<date>2012-10-09T20:05:53Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>ajaxDemo.php</string>
 			<key>lastUsed</key>
-			<date>2012-10-13T20:35:51Z</date>
+			<date>2012-10-08T23:08:34Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -124,7 +124,7 @@
 			<key>filename</key>
 			<string>demo/js/demo_1.js</string>
 			<key>lastUsed</key>
-			<date>2012-10-13T20:37:09Z</date>
+			<date>2012-10-09T20:21:09Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -136,7 +136,7 @@
 			<key>filename</key>
 			<string>demo/fixed_dynamic.html</string>
 			<key>lastUsed</key>
-			<date>2012-10-13T20:37:09Z</date>
+			<date>2013-06-21T19:10:25Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
@@ -320,14 +320,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>21</integer>
+				<integer>1</integer>
 				<key>line</key>
-				<integer>40</integer>
+				<integer>29</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>5</integer>
+			<integer>0</integer>
 		</dict>
 		<key>demo/fixed_xml.html</key>
 		<dict>
@@ -401,7 +401,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>152</integer>
+			<integer>136</integer>
 		</dict>
 		<key>demo/js/fixed_xml_Sample.js</key>
 		<dict>
@@ -452,30 +452,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>13</integer>
+				<integer>75</integer>
 				<key>line</key>
-				<integer>8</integer>
+				<integer>21</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>53</integer>
-				<key>line</key>
-				<integer>8</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>13</integer>
-				<key>line</key>
-				<integer>8</integer>
-			</dict>
 		</dict>
 		<key>js/ajaxPlayer_fixed.js</key>
 		<dict>
@@ -622,7 +606,6 @@
 		<string>css/ajaxPlayer_black.css</string>
 		<string>skin/lucky3.css</string>
 		<string>index.html</string>
-		<string>../hui_website/templates/grid.html</string>
 		<string>js/ajaxPlayer_fixed.js</string>
 		<string>js/beatMachine.js</string>
 		<string>css/ringo.css</string>
